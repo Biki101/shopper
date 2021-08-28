@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import LandingPageCategories from "./components/categories/landing-page-categories";
 import NavBar from "./components/nav-bar/nav-bar";
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
       </Head>
       <div className="landing-page">
         <NavBar />
-        <div className="categories">categories</div>
+        <LandingPageCategories />
         <div className="dealofweek">dealofweek</div>
         <div className="popularservices">popularservices</div>
         <div className="offers">limitedoffers</div>
